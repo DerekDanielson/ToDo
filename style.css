@@ -2,8 +2,11 @@ body {
     background-color: gray;
 }
 
-/*#container {
-    border: 1px solid black;
-    padding: 5px;
-    margin-right: 90%;
-}*/
+#container {
+    margin-left: 40%;
+    margin-top: 10%;
+}
+
+li {
+    font-size: 1.6rem;
+}
