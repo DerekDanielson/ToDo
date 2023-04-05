@@ -14,15 +14,15 @@ submit.addEventListener('click', addTask);
         li.className = 'task';
         // Create text node and append to li
         li.appendChild(document.createTextNode(input.value));
-
+        // Append li to collection field
         collection.appendChild(li);
-
+        // Assign input value to new li
         li.innerHTML = input.value;
 
         e.preventDefault();
     };
 
-//Create new li and append task
+
 
 
 
