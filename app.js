@@ -32,10 +32,11 @@ submit.addEventListener('click', addTask);
         input.value = '';
         }
 
-
-
         e.preventDefault();
     };
+
+// Remove task event
+//collection.addEventListener('click', removeTask);
 
 // Remove task
 function removeTask(e){
@@ -45,16 +46,3 @@ function removeTask(e){
         }
     }
 }
-
-
-
-/*let tasks;
-
-tasks.forEach(function(task){
-    //Create li element
-    const li = document.createElement('li');
-    //Add class
-    li.className = 'item';
-    //Append text node to li
-    li.appendChild(document.createTextNode(task));
-});*/
