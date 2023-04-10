@@ -10,3 +10,9 @@ body {
 li {
     font-size: 1.6rem;
 }
+
+i{
+    float: right;
+    margin-top: -2%;
+    margin-right: 40%;
+}
